@@ -1,0 +1,208 @@
+
+
+body {
+    background: linear-gradient(0.25turn, #3f87a6, #a6aca1, #01a501);
+}
+.navbar {
+    padding: 1vw 0vw 2vw 0vw;
+    border-bottom: 2px solid gray;
+    position:sticky;
+    top: 0%;
+    width: 100%; 
+}
+
+.nav-link {
+    margin-left: 2vw;
+    font-weight: bold;
+}
+
+.form-inline {
+    display: flex;
+}
+
+.navbar-brand {
+margin-left: 3vw;
+font-weight: bold;
+}
+
+.btn-primary {
+    margin-top: 1vw;
+}
+
+.log {
+    color: rgb(4, 184, 94);
+    padding: 0px 2px 0px 2px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.mb-3 {
+    margin-left: 25vw;
+}
+
+.mr-sm-2 {
+    margin-left: 4vw;
+}
+
+.table-categorie {
+    margin-top: 1vw;
+    text-align: center;
+}
+
+.categorie_lien {
+    text-decoration: none;
+    color: gray;
+}
+
+.profil-modif {
+    width: 60vw;
+    border-radius: 10px;
+    
+}
+
+.profil-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.test {
+    text-align: center;
+}
+
+.label-modif {
+    margin-top: 1vw;
+}
+
+.none {
+    color: transparent;
+}
+
+.register {
+    background-color: rgb(250, 250, 250);
+    width: 30vw;
+    height: 21vw;
+    border-radius: 20px;
+    text-align: center;
+    border: solid 2px black;
+   
+}
+
+.deco-register {
+    background-image: url("../img/graffiti_1.jpg");
+    width: 36vw;
+    display: flex;
+    justify-content: center;
+    height: 26vw;
+    align-items: center;
+    border-radius: 20px;
+    border: solid 2px black;
+}
+
+.form-control {
+    text-align: center;
+}
+
+.login {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.container-login {
+    width: 30vw;
+    border-radius: 10px;
+    border: 4px solid black;
+    padding: 2vw;
+    background-color: rgba(71, 69, 69, 0.5);
+    color: aliceblue;
+}
+
+.login-input {
+    background-color: transparent;
+    border-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    /* color: antiquewhite; */
+}
+
+.login-input:focus {
+    background-color: rgba(255 , 255 , 255 , 0.5);
+
+}
+
+td:hover {
+background-color: rgba(255 , 255 , 255 , 0.5);
+}
+
+.categorie_lien {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    padding: 0px 5px 0px 5px ;
+}
+
+.categorie_lien:hover {
+      color: rgb(0, 0, 0); 
+    background-color: rgba(126, 124, 124, 0.8);
+}
+
+.quizz {
+    text-align: center;
+    padding-top: 1vw;
+}
+
+.question {
+    margin-top: 4vw;
+    padding-bottom: 1vw;
+    animation-duration: 6s;
+    animation-name: qst;
+    animation-iteration-count: infinite;
+    background-color:rgba( 0, 0, 0, 0.9);
+
+}
+
+@keyframes qst {
+    0% {
+        color: rgb(252, 1, 231);
+    }
+    25% {
+        color:rgb(48, 218, 42);
+    }
+    50% {
+        color: aqua;
+    }
+    75% {
+        color: rgb(229, 255, 0);
+    }
+    100% {
+        color: rgb(252, 1, 231);    }
+}
+
+main {
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.historique {
+    background-color: aliceblue;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.container-question {
+    background-color: rgba( 0, 0, 0, 0.6);
+    height: auto;
+}
+

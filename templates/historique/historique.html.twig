@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HistoriqueController!{% endblock %}
+
+{% block body %}
+    {% if app.user %}
+        <table class="table historique">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">categorie</th>
+            <th scope="col">score</th>
+            <th scope="col">date</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for key , categories in categorie %}
+            <tr>
+                <td>{{categories}}</td>
+                <td>{{score[key]}}/10</td>
+                <td>{{date[key]}}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+        </table>
+    {% endif %}
+{% endblock %}

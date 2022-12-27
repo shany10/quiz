@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class='profil-container'>
+        <div class='test'>
+            <h2>{{user.email}}</h2>
+            <div class="profil-modif">
+                {{ form_start(emailForm) }}
+                {{ form_end(emailForm) }}
+
+                {{ form_start(passwordForm) }}
+                {{ form_end(passwordForm) }}
+        </div>    
+        </div>
+    </div>    
+    {# <form method="POST" action="/profil">
+        <label for="email">Email :</label>
+        <input name="email" type="email">
+        <input type="submit" value="change">
+    </form>
+    <form method="POST" action="/profil">
+        <label for="Password">Password :</label>
+        <input name="password" type="password">
+        <input type="submit" value="change">
+    </form> #}
+{% endblock %}

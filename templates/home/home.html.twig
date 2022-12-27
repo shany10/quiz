@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+<table class="table table-categorie">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">categorie</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for categories in categorie %}
+        <tr>
+            <td><a href="/categorie/{{categories.id}}" class="categorie_lien">{{categories.name}}</a></td>
+        </tr>
+    {% endfor %}
+
+  </tbody>
+</table>
+<table class="table">
+ 
+{% endblock %}
